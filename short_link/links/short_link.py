@@ -13,6 +13,7 @@ def testWeb(links):
 			continue
 		return True  
 
+
 def short_link(links):
 		if testWeb(links):
 			return(gen_keys())
